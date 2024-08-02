@@ -660,7 +660,7 @@ function output() {
             localStorage.setItem(`image`, `${filechecking()}`);
             localStorage.setItem(`agree`, `${agree}`);
             alert("Form has been submitted");
-            window.location.assign("output.html");
+            window.location.assign("assests/output/output.html");
         }
     }
 }
