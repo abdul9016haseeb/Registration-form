@@ -208,12 +208,12 @@
         function clearfunction() {
             localStorage.clear();
             if (localStorage.length == 0) {
-                window.location.assign("Index.html");
+                window.location.assign("index.html");
             }
         }
 
         if (localStorage.length == 0) {
-            window.location.assign("Index.html");
+            window.location.assign("index.html");
         }
 
         $("#clearButton").on("click", clearfunction);
